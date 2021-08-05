@@ -1,0 +1,65 @@
+<html>
+    <script>Addition</script>
+    <head>
+        <script>
+            function sum(){
+               var first  = document.myscreen.num1.value;
+               var second = document.myscreen.num2.value;
+               var result = parseInt(first)+parseInt(second);
+               document.myscreen.num3.value=result;
+            }
+            function sub(){
+                var first = document.myscreen.num1.value;
+                var second = document.myscreen.num2.value;
+                var result = first-second;
+                document.myscreen.num3.value = result;
+            }
+            function mul(){
+            var first = document.myscreen.num1.value;
+                var second = document.myscreen.num2.value;
+                var result = first*second;
+                document.myscreen.num3.value = result;
+            }
+            function div(){
+            var first = document.myscreen.num1.value;
+                var second = document.myscreen.num2.value;
+                var result = first/second;
+                document.myscreen.num3.value = result;
+            }
+            function sqrt(){
+                var first = document.myscreen.num1.value;
+                var second = first;           
+                var result = Math.sqrt(second);
+              
+                document.myscreen.num3.value = result;
+            }
+            function cube(){
+                var first = document.myscreen.num1.value;
+                var second = first*first*first;           
+                var result = second;
+              
+                document.myscreen.num3.value = result;
+            }
+        </script>
+
+    </head>
+    <body> 
+        <h1>My calculator </h1>
+        <form name = "myscreen">
+            <input type = "text" name="num1" placeholder="Enter the first number"><br>
+            <input type=" text" name="num2" placeholder="Enter the second number"><br>
+            <input type=" text" name="num3" placeholder="Result"><br>
+            <input type="button" value="add" onclick="sum()"><br>
+            <input type="button" value="sub" onclick="sub()"><br>
+            <input type="button" value="mul" onclick="mul()"><br>
+            <input type="button" value="div" onclick="div()"><br>
+            <input type="button" value="sqrt" onclick="sqrt()"><br>
+            <input type="button" value="cube" onclick="cube()">
+
+
+
+
+
+        </form>
+    </body>
+</html>
