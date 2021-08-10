@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+                <img src="img/logo-dark.png"></a>
+            </div>
+    
+        <div class="menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">doctors</a></li>
+                        <li><a href="#">department</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">elements</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#"><span><i class="fas fa-search" style="color:rgb(0, 76, 255)"></i></span></a></li>
+                    </ul>
+           </div>
+        <button id="btn1">Appointment</button>
+        </div>
+      </div></nav>
+        
+
+    <!----test---1-->
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-4 col-md-6 col-sm-6">
+                <img src="img/about.png">
+            </div>
+            <div class=" col-lg-4  col-md-6 col-sm-6">
+                <div class="content">
+                    <h4>Welcome To MediLink.<br>
+                        Central Hospital</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatibus commodi
+                        perspiciatis ex nihil molestias quibusdam aliquid minima labore delectus numquam nam impedit
+                        tempora corrupti reiciendis corporis, ab sequi praesentium.</p>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-12 col-sm-12">
+                <div class="right-box">
+                    <div class="box-1">
+                        <span><i class="fas fa-calendar-week"></i></span>
+                        Request Appointment
+                        <span><i class="fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="box-1">
+                        <span><i class="fas fa-user-md"></i></span>
+                        Find Doctors
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="box-1">
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        Find Locations
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="box-1">
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        Emergency call
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---test-2-->
+    <div class="container">
+
+    </div>
+</body>
+
+</html>
